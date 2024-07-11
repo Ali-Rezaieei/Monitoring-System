@@ -1,0 +1,30 @@
+crawler:
+  endpoint: 'localhost:8080'
+
+analyzer:
+  endpoint: 'localhost:5000'
+
+auth:
+  admin:
+    admin
+
+database: mysql2
+
+mysql2:
+  database: falcon
+  user: root
+  host: localhost
+  port: 3306
+  password: 'WX$nyzNt2B3#'
+
+session:
+  key: 'koa.sess'
+  maxAge: 86400000,
+  autoCommit: true
+  overwrite: true
+  httpOnly: true
+  signed: true
+  rolling: false
+  renew: false
+  secure: false
+  sameSite: null
